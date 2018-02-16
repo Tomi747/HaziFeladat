@@ -1,0 +1,2 @@
+# HaziFeladat
+Gyakoroljunk sokat
