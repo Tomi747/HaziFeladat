@@ -45,6 +45,13 @@ def feladat_6(a,b,c):
         return r,R
     return "Nem szerkeszthető a háromszög"
 
+def feladat_7(a,b,drot):
+    K=2*a+2*b
+    if K>drot:
+        print("%.0f drót kell még!" %(K-drot))
+    else:
+        print("%.0f drót maradt ki!" %(drot-K))
+
 
 def main():
     feladat_1(5,3)
@@ -53,5 +60,6 @@ def main():
     print(feladat_4(3,0,-19))
     feladat_5(12,32,1,5)
     print(feladat_6(3,4,5))
+    feladat_7(43,243,34)
 if __name__ == '__main__':
     main()
